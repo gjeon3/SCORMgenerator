@@ -1,32 +1,31 @@
-<?xml version="1.0" encoding="utf-8"?>
-<manifest identifier="course_1_01_05_2016" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:lom="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
-<metadata>
-<schema>ADL SCORM</schema>
-<schemaversion>2004 4th Edition</schemaversion>
-<lom:lom>
-<lom:general>
-<lom:title>
-<lom:langstring>Course_1</lom:langstring>
-</lom:title>
-</lom:general>
-<lom:educational>
-<lom:typicallearningtime>
-<lom:datetime>00:00:00</lom:datetime>
-</lom:typicallearningtime>
-</lom:educational>
-</lom:lom>
-</metadata>
-<organizations default="Course_1_organization">
-    <organization identifier="Course_1_organization">
-        <title>My Scorm Example</title>
-        <item identifier="item" identifierref="resource">
-            <title>Demand Graph</title>
-        </item>
-    </organization>
-</organizations>
-<resources>
-<resource identifier="resource" type="webcontent" adlcp:scormType="sco" href="res/identifying_points_on_curve/identifying_points_on_curve_demand_table.html">
-	<file href="res/identifying_points_on_curve/identifying_points_on_curve_demand_table.html"/>
-    </resource>
-</resources>
-</manifest>
+<ns0:manifest xmlns:ns0="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:ns2="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xmlns:ns3="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" identifier="course_1_01_05_2016" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+<ns0:metadata>
+<ns0:schema>ADL SCORM</ns0:schema>
+<ns0:schemaversion>2004 4th Edition</ns0:schemaversion>
+<ns2:lom>
+<ns2:general>
+<ns2:title>
+<ns2:langstring>Course_1</ns2:langstring>
+</ns2:title>
+</ns2:general>
+<ns2:educational>
+<ns2:typicallearningtime>
+<ns2:datetime>00:00:00</ns2:datetime>
+</ns2:typicallearningtime>
+</ns2:educational>
+</ns2:lom>
+</ns0:metadata>
+<ns0:organizations default="PRACTICE: Identifying New Market Equilibrium from a Graph">
+    <ns0:organization identifier="PRACTICE: Identifying New Market Equilibrium from a Graph">
+        <ns0:title>PRACTICE: Identifying New Market Equilibrium from a Graph</ns0:title>
+        <ns0:item identifier="item" identifierref="resource">
+            <ns0:title>Demand Graph</ns0:title>
+        </ns0:item>
+    </ns0:organization>
+</ns0:organizations>
+<ns0:resources>
+<ns0:resource href="res/identifying_points_on_curve/identifying_points_on_curve_demand_table.html" identifier="resource" type="webcontent" ns3:scormType="sco">
+	<ns0:file href="res/identifying_points_on_curve/identifying_points_on_curve_demand_table.html" />
+    </ns0:resource>
+</ns0:resources>
+</ns0:manifest>
